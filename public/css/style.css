@@ -1,0 +1,121 @@
+*{
+    font-family: Century Gothic;
+  }
+  .container{
+      background: #fff;
+      box-shadow: 0px 0px 10px #000;
+      border-radius: 30px;
+      padding: 30px;
+      margin:auto;
+  }
+  h2{
+      color: #092eadc9;
+  }
+  label{
+      float:left;
+      color: rebeccapurple;
+      font-weight: bold;
+  }
+  .button{
+      color:#fff;
+      background-color: rebeccapurple;
+      border-radius: 2%;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+  }
+  
+  
+   #certificatewrapper h2 {
+      margin: 25px;
+      position: absolute;
+      left:0;
+      right:0;
+      top: 105%;
+      font-size: 3.5em;
+    }
+     #certificatewrapper h1 {
+      margin: 25px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 126%;
+      font-size: 2.5rem;
+    }
+     #certificatewrapper h6 {
+      margin: 25px;
+      position: absolute;
+      left: 0;
+      right: 41.5%;
+      top: 161.5%;
+      font-size: 1.5em;
+    }
+     #certificatewrapper h4 {
+      margin: 25px;
+      position: absolute;
+      left: 49%;
+      top: 162%;
+      font-size: 1.5rem;
+    }
+     button {
+      padding: 10px 15px;
+      margin: 20px 0;
+      cursor: pointer;
+      border: none;
+      border-radius: 6%;
+      background-color: rebeccapurple;
+      color: #fff;
+    }
+    .App {
+      text-align: center;
+    }
+    
+    .App-logo {
+      height: 40vmin;
+      pointer-events: none;
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    }
+    
+    .App-header {
+      background-color: #282c34;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+    
+    .App-link {
+      color: #61dafb;
+    }
+    
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    body {
+      margin: 0;
+      font-family: Century Gothic,
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+    

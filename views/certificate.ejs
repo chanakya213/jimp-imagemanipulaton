@@ -1,0 +1,40 @@
+<%- include("partials/header"); -%>
+<div id="root">
+  <form action="/certificate" method="post">
+    <h2 class="mt-3 text-center">Automatic Certificate Generator</h2>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12 col-md-12 col-sm-12">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Date of Birth</label>
+            <input
+              type="date"
+              class="form-control"
+              name="date"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label text-left">Certificate Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="number"
+              name="certificatenumber"
+              placeholder="Enter your Certificate Number..."
+            />
+          </div>
+          <button type="submit" class="button btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <%- include("partials/footer"); -%>
